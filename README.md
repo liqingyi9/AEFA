@@ -1,11 +1,11 @@
 # Spoofing Behavior Detection via Ensemble Learning
 
-This project performs spoofing behavior detection using a hybrid pipeline of Random Forest, MLP, and XGBoost, with outlier filtering using Local Outlier Factor (LOF).
+This project performs spoofing behavior detection using a hybrid pipeline of three modules, Initial Data Optimazation Moduel, Probability Decision Module, and Advanced Voting Integration Module.
 
 ## 📁 File Structure
 
 - `main_pipeline.py`  
-  Main script to run the detection pipeline, train models, apply LOF denoising, and evaluate results.
+  Main script to run the detection pipeline, train models, apply first module denoising, and evaluate results.
 
 - `model_utils.py`  
   Utility module containing functions for:
@@ -18,10 +18,9 @@ This project performs spoofing behavior detection using a hybrid pipeline of Ran
 
 ## 📊 Model Details
 
-- **Random Forest** as the primary detector
-- **MLP + XGBoost** as secondary classifiers for anomaly samples
-- **Soft voting** to refine predictions from secondary models
-- **Threshold**: 0.2 used for binary classification
+- **Initial Data Optimazation Module** as the primary detector
+- **Probability Decision Module** as secondary classifiers for anomaly samples
+- **Advanced Voting Integration Module** to refine predictions from secondary models
 
 ## 🚀 Run the Code
 
