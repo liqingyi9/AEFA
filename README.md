@@ -1,6 +1,6 @@
 # Spoofing Behavior Detection via Ensemble Learning
 
-This project performs spoofing behavior detection using a hybrid pipeline of three modules, Initial Data Optimazation Moduel, Probability Decision Module, and Advanced Voting Integration Module.
+This project performs spoofing behavior detection using a hybrid pipeline of three modules: Initial Data Optimazation Moduel, Probability Decision Module, and Advanced Voting Integration Module.
 
 ## 📁 File Structure
 
