@@ -4,7 +4,7 @@ This project performs spoofing behavior detection using a hybrid pipeline of thr
 
 ## 📁 File Structure
 
-- `main_pipeline.py`  
+- `AEFA.py`  
   Main script to run the detection pipeline, train models, apply first module denoising, and evaluate results.
 
 - `model_utils.py`  
@@ -25,4 +25,4 @@ This project performs spoofing behavior detection using a hybrid pipeline of thr
 ## 🚀 Run the Code
 
 ```bash
-python main_pipeline.py
+python AEFA.py
